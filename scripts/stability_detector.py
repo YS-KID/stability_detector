@@ -15,7 +15,6 @@ except:
     rospy.logerr("please install aero-ros-pkg-private")
     exit()
 
-
 class Rect2LabeledArray():
 
     rect_x_list = []
@@ -53,15 +52,18 @@ class Rect2LabeledArray():
             self.stability = (np.var(np.array(self.rect_x_list)) + np.var(np.array(self.rect_y_list))) / len(self.rect_x_list) * 10 
             self.pub.publish(self.stability)
             self.stability_list.append(self.stability)
-            plt.plot(self.stability_list)
-            plt.pause(0.01)
-            plt.cla()
+            self.draw_graph()
         else:
             self.pub.publish(0.0)
             print("No donbe")
         print("--------")
         del self.rect_x_list[:]
         del self.rect_y_list[:]
+
+    def draw_graph(self):
+        plt.plot(self.stability_list)
+        plt.pause(0.01)
+        plt.cla()
 
 if __name__ == '__main__':
     rospy.init_node("rect_to_labeledarray")

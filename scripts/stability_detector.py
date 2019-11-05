@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import rospy
-import matplotlib.pyplot as plt
 
 import message_filters
 from jsk_recognition_msgs.msg import Rect, RectArray
@@ -19,12 +18,14 @@ class Rect2LabeledArray():
 
     rect_x_list = []
     rect_y_list = []
-    stability_list = []
+    rects_x_list = []
+    rects_y_list = []
+    count = 0
 
     def __init__(self):
         self.pub = rospy.Publisher("~output/stability", Float32, queue_size=1)
         self.subscribe()
-        rospy.Timer(rospy.Duration(1), self.callbackTimer)
+        rospy.Timer(rospy.Duration(0.2), self.callbackTimer)
 
     def subscribe(self):
         queue_size = rospy.get_param('/kaida/rect/queue', 100)
@@ -40,30 +41,28 @@ class Rect2LabeledArray():
         sync.registerCallback(self.printMsg)
 
     def printMsg(self, rect_msg, class_msg):
-        #print(class_msg.label_proba)
         for rect, proba in zip(rect_msg.rects, class_msg.label_proba):
             if(proba > 0.97):
                 self.rect_x_list.append(rect.x)
                 self.rect_y_list.append(rect.y)
 
     def callbackTimer(self, event):
-        print(len(self.rect_x_list))
-        if len(self.rect_x_list) != 0:
-            self.stability = (np.var(np.array(self.rect_x_list)) + np.var(np.array(self.rect_y_list))) / len(self.rect_x_list) * 10 
-            self.pub.publish(self.stability)
-            self.stability_list.append(self.stability)
-            self.draw_graph()
+        self.rects_x_list.append(self.rect_x_list)
+        self.rects_y_list.append(self.rect_y_list)
+        del self.rect_x_list[:]
+        del self.rect_y_list[:]
+        if sum([len(v) for v in self.rects_x_list[-5:]]) != 0:
+            rect_x_list= [flatten for inner in self.rects_x_list[-5:] for flatten inner]
+            rect_y_list= [flatten for inner in self.rects_y_list[-5:] for flatten inner]
+            stability = (np.var(np.array(rect_x_list)) + np.var(np.array(rect_y_list))) / len(rect_x_list) * 10
+            print(sum([len(v) for v in self.rects_x_listi[-5:]]))
+            self.pub.publish(stability)
+            del self.rects_x_list[:-5]
+            del self.rects_y_list[:-5]
         else:
             self.pub.publish(0.0)
             print("No donbe")
         print("--------")
-        del self.rect_x_list[:]
-        del self.rect_y_list[:]
-
-    def draw_graph(self):
-        plt.plot(self.stability_list)
-        plt.pause(0.01)
-        plt.cla()
 
 if __name__ == '__main__':
     rospy.init_node("rect_to_labeledarray")

@@ -2,7 +2,7 @@
   <node name="donbe_stability_detector"
         pkg="stability_detector" type="stability_detector.py"
         output="screen" >
-    <remap from="~input_rect" to="/ssd_donbe_detector/output/rect" />
-    <remap from="~input_class" to="/ssd_donbe_detector/output/class" />
+    <remap from="~input_rect" to="/ssd_object_detector/output/rect" />
+    <remap from="~input_class" to="/ssd_object_detector/output/class" />
   </node>
 </launch>

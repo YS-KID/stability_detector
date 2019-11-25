@@ -49,13 +49,13 @@ class Rect2LabeledArray():
     def callbackTimer(self, event):
         self.rects_x_list.append(self.rect_x_list)
         self.rects_y_list.append(self.rect_y_list)
-        del self.rect_x_list[:]
-        del self.rect_y_list[:]
+        self.rect_x_list = []
+        self.rect_y_list = []
         if sum([len(v) for v in self.rects_x_list[-5:]]) != 0:
-            rect_x_list= [flatten for inner in self.rects_x_list[-5:] for flatten inner]
-            rect_y_list= [flatten for inner in self.rects_y_list[-5:] for flatten inner]
+            rect_x_list= [flatten for inner in self.rects_x_list[-5:] for flatten in inner]
+            rect_y_list= [flatten for inner in self.rects_y_list[-5:] for flatten in inner]
             stability = (np.var(np.array(rect_x_list)) + np.var(np.array(rect_y_list))) / len(rect_x_list) * 10
-            print(sum([len(v) for v in self.rects_x_listi[-5:]]))
+            print(sum([len(v) for v in self.rects_x_list[-5:]]))
             self.pub.publish(stability)
             del self.rects_x_list[:-5]
             del self.rects_y_list[:-5]

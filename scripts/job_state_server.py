@@ -14,7 +14,7 @@ class JobStateServer:
     def __init__(self):
         rospy.init_node("job_state_server")
         self.job_state_server = rospy.Service("/jobstate", JobState, self.change_state)
-        rospy.Timer(rospy.Duration(0.03), self.callbackTimer)
+        rospy.Timer(rospy.Duration(0.05), self.callbackTimer)
         self.pub = rospy.Publisher("/jobstate", String, queue_size=10)
         rospy.spin()
 

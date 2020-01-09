@@ -1,0 +1,110 @@
+{
+    "labels": [
+        {
+            "label_type": "box", 
+            "label_class": "donbe", 
+            "centre": {
+                "y": 276.66666666666663, 
+                "x": 79.52380952380952
+            }, 
+            "object_id": 1, 
+            "size": {
+                "y": 134.28571428571428, 
+                "x": 73.8095238095238
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "donbe", 
+            "centre": {
+                "y": 418.8095238095238, 
+                "x": 63.80952380952381
+            }, 
+            "object_id": 2, 
+            "size": {
+                "y": 108.09523809523807, 
+                "x": 64.28571428571428
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "noodle", 
+            "centre": {
+                "y": 189.52380952380952, 
+                "x": 215.95238095238096
+            }, 
+            "object_id": 3, 
+            "size": {
+                "y": 85.71428571428572, 
+                "x": 62.85714285714286
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "noodle", 
+            "centre": {
+                "y": 329.04761904761904, 
+                "x": 245.0
+            }, 
+            "object_id": 4, 
+            "size": {
+                "y": 86.66666666666663, 
+                "x": 67.61904761904762
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "noodle", 
+            "centre": {
+                "y": 430.0, 
+                "x": 200.23809523809524
+            }, 
+            "object_id": 5, 
+            "size": {
+                "y": 80.0, 
+                "x": 58.0952380952381
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "miso_soup", 
+            "centre": {
+                "y": 174.52380952380952, 
+                "x": 344.76190476190476
+            }, 
+            "object_id": 6, 
+            "size": {
+                "y": 92.85714285714283, 
+                "x": 81.42857142857144
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "miso_soup", 
+            "centre": {
+                "y": 336.19047619047615, 
+                "x": 376.66666666666663
+            }, 
+            "object_id": 7, 
+            "size": {
+                "y": 92.38095238095235, 
+                "x": 88.09523809523813
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "miso_soup", 
+            "centre": {
+                "y": 457.1428571428571, 
+                "x": 390.0
+            }, 
+            "object_id": 8, 
+            "size": {
+                "y": 92.38095238095235, 
+                "x": 88.09523809523807
+            }
+        }
+    ], 
+    "complete": null, 
+    "image_filename": "donbe_ssd_image23.jpg"
+}

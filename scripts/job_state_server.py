@@ -27,6 +27,10 @@ class JobStateServer:
             self.state = "release trolley"
         elif trigger.trigger == "finish release trolley":
             self.state = "finish"
+        elif trigger.trigger == "collapse":
+            self.state = "collapse"
+        elif trigger.trigger == "init":
+            self.state = "init"
         req.state = self.state
         return req
 

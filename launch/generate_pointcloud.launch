@@ -1,0 +1,43 @@
+<launch>
+  <arg name="camera_name" default="remote"/>
+
+  <arg name="manager" default="$(arg camera_name)_camera_remote_nodelet_manager" />
+  <arg name="input_rgb" default="/openni_camera/rgb/image_raw" />
+  <arg name="input_depth" default="/openni_camera/depth_registered/image_raw" />
+  <arg name="camera_info" default="/openni_camera/rgb/camera_info" />
+
+  <arg name="respawn" default="false" />
+  <arg if="$(arg respawn)" name="bond" value="" />
+  <arg unless="$(arg respawn)" name="bond" value="--no-bond" />
+
+  <node name="$(arg manager)"
+        pkg="nodelet" type="nodelet"
+        args="manager"  output="screen"/>
+
+  <node name="$(arg camera_name)_rgb_image_republish"
+        pkg="image_transport" type="republish"
+        output="screen" args="compressed raw">
+    <remap from="in" to="$(arg input_rgb)" />
+    <remap from="out" to="$(arg camera_name)/openni_camera/rgb/image_rect_color" />
+  </node>
+
+  <node name="$(arg camera_name)_depth_image_republish"
+        pkg="image_transport" type="republish"
+        output="screen" args="compressedDepth raw">
+    <remap from="in" to="$(arg input_depth)" />
+    <remap from="out" to="$(arg camera_name)/openni_camera/depth_registered/image_rect" />
+  </node>
+
+  <node name="$(arg camera_name)_points_xyzrgb_hw_registered"
+        pkg="nodelet" type="nodelet"
+        args="load depth_image_proc/point_cloud_xyzrgb $(arg manager) $(arg bond)"
+        respawn="$(arg respawn)">
+    <remap from="rgb/image_rect_color"        to="$(arg camera_name)/openni_camera/rgb/image_rect_color"/>
+    <remap from="rgb/camera_info"             to="$(arg camera_info)"/>
+    <remap from="depth_registered/image_rect" to="$(arg camera_name)/openni_camera/depth_registered/image_rect"/>
+    <remap from="depth_registered/points"     to="$(arg camera_name)/point_cloud/cloud_registered/remote"/>
+    <rosparam>
+      queue_size: 100
+    </rosparam>
+  </node></launch>
+

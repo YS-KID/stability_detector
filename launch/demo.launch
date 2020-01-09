@@ -1,0 +1,4 @@
+<launch>
+  <node name="job_state_server" pkg="stability_detector" type="job_state_server.py"/>
+  <node name="observe_server" pkg="stability_detector" type="observe_server.py"/>
+</launch>

@@ -1,0 +1,2818 @@
+[
+    {
+        "jobstate": "move trolley", 
+        "section": "13.0", 
+        "cmd_vel": {
+            "angular_z": 0.2, 
+            "linear_x": 2.482478902819986e-16, 
+            "linear_y": -1.656258110414129e-18
+        }, 
+        "stability": 9.629630088806152, 
+        "amcl": {
+            "orientation_w": 0.02659246875108751, 
+            "pose_x": 1.5187893919892093, 
+            "pose_y": -12.047778949219655, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9996463577714483
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.1", 
+        "cmd_vel": {
+            "angular_z": 0.24559062834439938, 
+            "linear_x": -0.052818810101929174, 
+            "linear_y": -0.0023784016063535824
+        }, 
+        "stability": 9.629630088806152, 
+        "amcl": {
+            "orientation_w": 0.02659246875108751, 
+            "pose_x": 1.5187893919892093, 
+            "pose_y": -12.047778949219655, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9996463577714483
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.2", 
+        "cmd_vel": {
+            "angular_z": 0.30495934082271103, 
+            "linear_x": -0.10751965191009828, 
+            "linear_y": -0.001629802609762066
+        }, 
+        "stability": 9.629630088806152, 
+        "amcl": {
+            "orientation_w": 0.02659246875108751, 
+            "pose_x": 1.5187893919892093, 
+            "pose_y": -12.047778949219655, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9996463577714483
+        }, 
+        "odom": {
+            "linear_x": -0.052818810101929174, 
+            "linear_y": -0.0023784016063535824, 
+            "angular": 0.24559062834439938
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.3", 
+        "cmd_vel": {
+            "angular_z": 0.35126743915205805, 
+            "linear_x": -0.24063241963556578, 
+            "linear_y": -0.011957421821187572
+        }, 
+        "stability": 9.629630088806152, 
+        "amcl": {
+            "orientation_w": 0.03583622890982094, 
+            "pose_x": 1.5230630397932037, 
+            "pose_y": -12.048380575343561, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9993576760587387
+        }, 
+        "odom": {
+            "linear_x": -0.10751965191009827, 
+            "linear_y": -0.001629802609762066, 
+            "angular": 0.30495934082271103
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.4", 
+        "cmd_vel": {
+            "angular_z": 0.3418712596080629, 
+            "linear_x": -0.3018969644449354, 
+            "linear_y": -0.006876793642440656
+        }, 
+        "stability": 14.074073791503906, 
+        "amcl": {
+            "orientation_w": 0.040972134890268894, 
+            "pose_x": 1.5271222822937809, 
+            "pose_y": -12.04931417766586, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9991602895244254
+        }, 
+        "odom": {
+            "linear_x": -0.24063241963556578, 
+            "linear_y": -0.011957421821187572, 
+            "angular": 0.35126743915205805
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.5", 
+        "cmd_vel": {
+            "angular_z": 0.35556917937017907, 
+            "linear_x": -0.340997808550393, 
+            "linear_y": -0.005384024514472058
+        }, 
+        "stability": 14.074073791503906, 
+        "amcl": {
+            "orientation_w": 0.06719646566567142, 
+            "pose_x": 1.5677190493530826, 
+            "pose_y": -12.04569639509994, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9977397631657476
+        }, 
+        "odom": {
+            "linear_x": -0.3018969644449354, 
+            "linear_y": -0.006876793642440656, 
+            "angular": 0.3418712596080629
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.6", 
+        "cmd_vel": {
+            "angular_z": 0.3784803296513276, 
+            "linear_x": -0.36931034403341173, 
+            "linear_y": -0.007628272561482624
+        }, 
+        "stability": 14.074073791503906, 
+        "amcl": {
+            "orientation_w": 0.07492427076564287, 
+            "pose_x": 1.5834603876666526, 
+            "pose_y": -12.044312174512877, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9971892266015696
+        }, 
+        "odom": {
+            "linear_x": -0.340997808550393, 
+            "linear_y": -0.005384024514472058, 
+            "angular": 0.35556917937017907
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.7", 
+        "cmd_vel": {
+            "angular_z": 0.3821018173441238, 
+            "linear_x": -0.35568868593501185, 
+            "linear_y": -0.005318966182498946
+        }, 
+        "stability": 14.074073791503906, 
+        "amcl": {
+            "orientation_w": 0.08918919367144763, 
+            "pose_x": 1.614468289874909, 
+            "pose_y": -12.045016254777465, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9960147025683089
+        }, 
+        "odom": {
+            "linear_x": -0.36931034403341173, 
+            "linear_y": -0.007628272561482624, 
+            "angular": 0.3784803296513276
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.8", 
+        "cmd_vel": {
+            "angular_z": 0.39739347006589026, 
+            "linear_x": -0.3438483238331652, 
+            "linear_y": -0.0029300179653301145
+        }, 
+        "stability": 14.074073791503906, 
+        "amcl": {
+            "orientation_w": 0.10279408457066894, 
+            "pose_x": 1.6499709385880124, 
+            "pose_y": -12.036377399187515, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9947026571680997
+        }, 
+        "odom": {
+            "linear_x": -0.35568868593501185, 
+            "linear_y": -0.005318966182498946, 
+            "angular": 0.3821018173441238
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.9", 
+        "cmd_vel": {
+            "angular_z": 0.4071584228691071, 
+            "linear_x": -0.3237636129981922, 
+            "linear_y": -0.003446740360026168
+        }, 
+        "stability": 14.074073791503906, 
+        "amcl": {
+            "orientation_w": 0.10980064516920851, 
+            "pose_x": 1.6681804285072035, 
+            "pose_y": -12.032069434163796, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9939536298643039
+        }, 
+        "odom": {
+            "linear_x": -0.3438483238331652, 
+            "linear_y": -0.0029300179653301145, 
+            "angular": 0.39739347006589026
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.10", 
+        "cmd_vel": {
+            "angular_z": 0.42594641442796316, 
+            "linear_x": -0.2945021625242418, 
+            "linear_y": -0.018232029512720755
+        }, 
+        "stability": 527.4074096679688, 
+        "amcl": {
+            "orientation_w": 0.13507344085470552, 
+            "pose_x": 1.7262724902541289, 
+            "pose_y": -12.020580462631964, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9908355895786497
+        }, 
+        "odom": {
+            "linear_x": -0.3237636129981922, 
+            "linear_y": -0.003446740360026168, 
+            "angular": 0.4071584228691071
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.11", 
+        "cmd_vel": {
+            "angular_z": 0.43203521462799005, 
+            "linear_x": -0.27474102279335955, 
+            "linear_y": -0.01651216741858315
+        }, 
+        "stability": 527.4074096679688, 
+        "amcl": {
+            "orientation_w": 0.1472903700003094, 
+            "pose_x": 1.7538431567217196, 
+            "pose_y": -12.011100453625312, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9890932953494185
+        }, 
+        "odom": {
+            "linear_x": -0.2945021625242418, 
+            "linear_y": -0.018232029512720755, 
+            "angular": 0.42594641442796316
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.12", 
+        "cmd_vel": {
+            "angular_z": 0.42272016311189003, 
+            "linear_x": -0.26590858077758406, 
+            "linear_y": -0.0004155587332740355
+        }, 
+        "stability": 353.75, 
+        "amcl": {
+            "orientation_w": 0.1590675896095968, 
+            "pose_x": 1.773799672514885, 
+            "pose_y": -12.00578374431847, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9872676951748157
+        }, 
+        "odom": {
+            "linear_x": -0.27474102279335955, 
+            "linear_y": -0.01651216741858315, 
+            "angular": 0.43203521462799005
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.13", 
+        "cmd_vel": {
+            "angular_z": 0.4309192891840158, 
+            "linear_x": -0.24022655741830484, 
+            "linear_y": 0.0005695389389102775
+        }, 
+        "stability": 353.75, 
+        "amcl": {
+            "orientation_w": 0.17724530030321373, 
+            "pose_x": 1.807041149046695, 
+            "pose_y": -11.994114760337862, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.984166705147265
+        }, 
+        "odom": {
+            "linear_x": -0.26590858077758406, 
+            "linear_y": -0.00041555873327403514, 
+            "angular": 0.42272016311189003
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.14", 
+        "cmd_vel": {
+            "angular_z": 0.43723586727616953, 
+            "linear_x": -0.21520726297059312, 
+            "linear_y": 0.0017626668378665702
+        }, 
+        "stability": 518.5184936523438, 
+        "amcl": {
+            "orientation_w": 0.20183589703015173, 
+            "pose_x": 1.839997188375954, 
+            "pose_y": -11.978167084759498, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9794193538367689
+        }, 
+        "odom": {
+            "linear_x": -0.24022655741830484, 
+            "linear_y": 0.0005695389389102775, 
+            "angular": 0.4309192891840158
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.15", 
+        "cmd_vel": {
+            "angular_z": 0.4468347298232808, 
+            "linear_x": -0.18235460800278744, 
+            "linear_y": 0.003531585818778488
+        }, 
+        "stability": 518.5184936523438, 
+        "amcl": {
+            "orientation_w": 0.21217225026123968, 
+            "pose_x": 1.8577732109013985, 
+            "pose_y": -11.976456536718885, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9772322836557754
+        }, 
+        "odom": {
+            "linear_x": -0.21520726297059312, 
+            "linear_y": 0.0017626668378665702, 
+            "angular": 0.43723586727616953
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.16", 
+        "cmd_vel": {
+            "angular_z": 0.4549555879581869, 
+            "linear_x": -0.15296413281187882, 
+            "linear_y": 0.005358879575728861
+        }, 
+        "stability": 631.111083984375, 
+        "amcl": {
+            "orientation_w": 0.23288457277559857, 
+            "pose_x": 1.8837606502112565, 
+            "pose_y": -11.969003548410328, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9725043834158934
+        }, 
+        "odom": {
+            "linear_x": -0.18235460800278744, 
+            "linear_y": 0.003531585818778488, 
+            "angular": 0.4468347298232808
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.17", 
+        "cmd_vel": {
+            "angular_z": 0.4600807806489343, 
+            "linear_x": -0.1273312404591726, 
+            "linear_y": 0.0071010460792911125
+        }, 
+        "stability": 631.111083984375, 
+        "amcl": {
+            "orientation_w": 0.2516521260606565, 
+            "pose_x": 1.9014445500522716, 
+            "pose_y": -11.955155636828737, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9678177552871984
+        }, 
+        "odom": {
+            "linear_x": -0.15296413281187882, 
+            "linear_y": 0.005358879575728861, 
+            "angular": 0.4549555879581869
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.18", 
+        "cmd_vel": {
+            "angular_z": 0.4716790517936347, 
+            "linear_x": -0.09492533721162348, 
+            "linear_y": 0.009081745384212317
+        }, 
+        "stability": 434.21875, 
+        "amcl": {
+            "orientation_w": 0.2683599433350864, 
+            "pose_x": 1.9175921810325933, 
+            "pose_y": -11.955791693753453, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9633187119604754
+        }, 
+        "odom": {
+            "linear_x": -0.1273312404591726, 
+            "linear_y": 0.0071010460792911125, 
+            "angular": 0.4600807806489343
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.19", 
+        "cmd_vel": {
+            "angular_z": 0.4838470797366922, 
+            "linear_x": -0.06743629587943156, 
+            "linear_y": 0.010545162615813869
+        }, 
+        "stability": 434.21875, 
+        "amcl": {
+            "orientation_w": 0.29923493192082956, 
+            "pose_x": 1.9299077502760174, 
+            "pose_y": -11.942765981317693, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9541794671435434
+        }, 
+        "odom": {
+            "linear_x": -0.09492533721162348, 
+            "linear_y": 0.009081745384212317, 
+            "angular": 0.4716790517936347
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.20", 
+        "cmd_vel": {
+            "angular_z": 0.47508331883990507, 
+            "linear_x": -0.04644614121517024, 
+            "linear_y": 0.013030838198893755
+        }, 
+        "stability": 421.4814758300781, 
+        "amcl": {
+            "orientation_w": 0.32605495606830265, 
+            "pose_x": 1.936882339145774, 
+            "pose_y": -11.939830392331972, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9453508161647174
+        }, 
+        "odom": {
+            "linear_x": -0.06743629587943156, 
+            "linear_y": 0.010545162615813869, 
+            "angular": 0.4838470797366922
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.21", 
+        "cmd_vel": {
+            "angular_z": 0.4708288390640861, 
+            "linear_x": -0.0173807611099616, 
+            "linear_y": 0.015630729449327963
+        }, 
+        "stability": 421.4814758300781, 
+        "amcl": {
+            "orientation_w": 0.34908984861522685, 
+            "pose_x": 1.9437893100743355, 
+            "pose_y": -11.94009927830662, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9370892580719288
+        }, 
+        "odom": {
+            "linear_x": -0.04644614121517024, 
+            "linear_y": 0.013030838198893755, 
+            "angular": 0.47508331883990507
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.22", 
+        "cmd_vel": {
+            "angular_z": 0.4613478567545131, 
+            "linear_x": 0.009180675909193824, 
+            "linear_y": 0.018478036641477347
+        }, 
+        "stability": 265.1851806640625, 
+        "amcl": {
+            "orientation_w": 0.3618236965597568, 
+            "pose_x": 1.945912991957805, 
+            "pose_y": -11.942798437746722, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9322465406789306
+        }, 
+        "odom": {
+            "linear_x": -0.0173807611099616, 
+            "linear_y": 0.015630729449327963, 
+            "angular": 0.4708288390640861
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.23", 
+        "cmd_vel": {
+            "angular_z": 0.4456604522422065, 
+            "linear_x": 0.03458422401044565, 
+            "linear_y": 0.021575612412347695
+        }, 
+        "stability": 265.1851806640625, 
+        "amcl": {
+            "orientation_w": 0.39401516527611863, 
+            "pose_x": 1.9488347943236515, 
+            "pose_y": -11.93732943238521, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9191039383728224
+        }, 
+        "odom": {
+            "linear_x": 0.009180675909193824, 
+            "linear_y": 0.018478036641477347, 
+            "angular": 0.4613478567545131
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.24", 
+        "cmd_vel": {
+            "angular_z": 0.44212281792103764, 
+            "linear_x": 0.05971483144214339, 
+            "linear_y": 0.023849849157615333
+        }, 
+        "stability": 265.1851806640625, 
+        "amcl": {
+            "orientation_w": 0.4151344420865037, 
+            "pose_x": 1.9490246839135543, 
+            "pose_y": -11.94349672129921, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.9097600755108609
+        }, 
+        "odom": {
+            "linear_x": 0.034584224010445655, 
+            "linear_y": 0.021575612412347695, 
+            "angular": 0.4456604522422065
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.25", 
+        "cmd_vel": {
+            "angular_z": 0.4251338315448881, 
+            "linear_x": 0.09689497128670212, 
+            "linear_y": 0.026183009785523223
+        }, 
+        "stability": 265.1851806640625, 
+        "amcl": {
+            "orientation_w": 0.44154601751426764, 
+            "pose_x": 1.9545894027814614, 
+            "pose_y": -11.94440307683562, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8972386050640543
+        }, 
+        "odom": {
+            "linear_x": 0.05971483144214339, 
+            "linear_y": 0.023849849157615333, 
+            "angular": 0.44212281792103764
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.26", 
+        "cmd_vel": {
+            "angular_z": 0.4145386952685813, 
+            "linear_x": 0.13377853305136062, 
+            "linear_y": 0.02946827467258765
+        }, 
+        "stability": 17.77777862548828, 
+        "amcl": {
+            "orientation_w": 0.4496849014764555, 
+            "pose_x": 1.957490978751785, 
+            "pose_y": -11.948367537342802, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8931872644547225
+        }, 
+        "odom": {
+            "linear_x": 0.09689497128670212, 
+            "linear_y": 0.026183009785523223, 
+            "angular": 0.4251338315448881
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.27", 
+        "cmd_vel": {
+            "angular_z": 0.3975593056759756, 
+            "linear_x": 0.16694938090135977, 
+            "linear_y": 0.03388376907315197
+        }, 
+        "stability": 17.77777862548828, 
+        "amcl": {
+            "orientation_w": 0.4646738257832172, 
+            "pose_x": 1.9541753511534286, 
+            "pose_y": -11.94869867048463, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8854819228149089
+        }, 
+        "odom": {
+            "linear_x": 0.13377853305136062, 
+            "linear_y": 0.02946827467258765, 
+            "angular": 0.4145386952685813
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.28", 
+        "cmd_vel": {
+            "angular_z": 0.38551158276416647, 
+            "linear_x": 0.2028302368551949, 
+            "linear_y": 0.035568722433854325
+        }, 
+        "stability": 42.96296310424805, 
+        "amcl": {
+            "orientation_w": 0.48671152239776666, 
+            "pose_x": 1.9522299111503791, 
+            "pose_y": -11.967297708698048, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.873562759030654
+        }, 
+        "odom": {
+            "linear_x": 0.16694938090135977, 
+            "linear_y": 0.03388376907315197, 
+            "angular": 0.3975593056759756
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.29", 
+        "cmd_vel": {
+            "angular_z": 0.3701822778626704, 
+            "linear_x": 0.21287200792882133, 
+            "linear_y": 0.03780439415893941
+        }, 
+        "stability": 42.96296310424805, 
+        "amcl": {
+            "orientation_w": 0.5043955564750302, 
+            "pose_x": 1.9435216935457196, 
+            "pose_y": -11.983950288383975, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8634727109806335
+        }, 
+        "odom": {
+            "linear_x": 0.2028302368551949, 
+            "linear_y": 0.035568722433854325, 
+            "angular": 0.38551158276416647
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.30", 
+        "cmd_vel": {
+            "angular_z": 0.3488972976279228, 
+            "linear_x": 0.24934446369233118, 
+            "linear_y": 0.040059782617515874
+        }, 
+        "stability": 42.96296310424805, 
+        "amcl": {
+            "orientation_w": 0.5217275570762944, 
+            "pose_x": 1.9323226175511417, 
+            "pose_y": -12.005056619287247, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8531121592072182
+        }, 
+        "odom": {
+            "linear_x": 0.21287200792882133, 
+            "linear_y": 0.03780439415893941, 
+            "angular": 0.3701822778626704
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.31", 
+        "cmd_vel": {
+            "angular_z": 0.3346854396109746, 
+            "linear_x": 0.25333032350346407, 
+            "linear_y": 0.04452124664117769
+        }, 
+        "stability": 42.96296310424805, 
+        "amcl": {
+            "orientation_w": 0.5301625048140359, 
+            "pose_x": 1.9254444799932928, 
+            "pose_y": -12.016644951745768, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8478960540592858
+        }, 
+        "odom": {
+            "linear_x": 0.24934446369233118, 
+            "linear_y": 0.040059782617515874, 
+            "angular": 0.3488972976279228
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.32", 
+        "cmd_vel": {
+            "angular_z": 0.31345103396727536, 
+            "linear_x": 0.2924265717989202, 
+            "linear_y": 0.04107410593349903
+        }, 
+        "stability": 217.0370330810547, 
+        "amcl": {
+            "orientation_w": 0.5511658640764406, 
+            "pose_x": 1.923325666832333, 
+            "pose_y": -12.050250867378605, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8343957036543695
+        }, 
+        "odom": {
+            "linear_x": 0.25333032350346407, 
+            "linear_y": 0.04452124664117769, 
+            "angular": 0.3346854396109746
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.33", 
+        "cmd_vel": {
+            "angular_z": 0.2946651343886323, 
+            "linear_x": 0.33459265558145107, 
+            "linear_y": 0.04047191219178036
+        }, 
+        "stability": 217.0370330810547, 
+        "amcl": {
+            "orientation_w": 0.5649642995684838, 
+            "pose_x": 1.9161294800150268, 
+            "pose_y": -12.07812831928683, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8251153496409411
+        }, 
+        "odom": {
+            "linear_x": 0.2924265717989202, 
+            "linear_y": 0.04107410593349903, 
+            "angular": 0.31345103396727536
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.34", 
+        "cmd_vel": {
+            "angular_z": 0.2774541316052508, 
+            "linear_x": 0.34176246058663584, 
+            "linear_y": 0.044955724700863085
+        }, 
+        "stability": 154.84375, 
+        "amcl": {
+            "orientation_w": 0.5829046052924084, 
+            "pose_x": 1.9054896446332181, 
+            "pose_y": -12.124217632997768, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8125405966035799
+        }, 
+        "odom": {
+            "linear_x": 0.33459265558145107, 
+            "linear_y": 0.04047191219178036, 
+            "angular": 0.2946651343886323
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.35", 
+        "cmd_vel": {
+            "angular_z": 0.25427823269822303, 
+            "linear_x": 0.37608205561973607, 
+            "linear_y": 0.039627746529116575
+        }, 
+        "stability": 154.84375, 
+        "amcl": {
+            "orientation_w": 0.5909641186802745, 
+            "pose_x": 1.9051876955405138, 
+            "pose_y": -12.138384470379807, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8066978433294875
+        }, 
+        "odom": {
+            "linear_x": 0.34176246058663584, 
+            "linear_y": 0.044955724700863085, 
+            "angular": 0.2774541316052508
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.36", 
+        "cmd_vel": {
+            "angular_z": 0.24209169071514083, 
+            "linear_x": 0.37617807777639733, 
+            "linear_y": 0.04381765341804141
+        }, 
+        "stability": 207.40740966796875, 
+        "amcl": {
+            "orientation_w": 0.5951573851720549, 
+            "pose_x": 1.900029861985405, 
+            "pose_y": -12.152165934027924, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.8036091630109516
+        }, 
+        "odom": {
+            "linear_x": 0.37608205561973607, 
+            "linear_y": 0.039627746529116575, 
+            "angular": 0.25427823269822303
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.37", 
+        "cmd_vel": {
+            "angular_z": 0.2215722020693495, 
+            "linear_x": 0.345726005170109, 
+            "linear_y": 0.033562307638928375
+        }, 
+        "stability": 207.40740966796875, 
+        "amcl": {
+            "orientation_w": 0.6090231497635059, 
+            "pose_x": 1.8942261483514091, 
+            "pose_y": -12.212956834953214, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7931524462876846
+        }, 
+        "odom": {
+            "linear_x": 0.37617807777639733, 
+            "linear_y": 0.04381765341804141, 
+            "angular": 0.24209169071514083
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.38", 
+        "cmd_vel": {
+            "angular_z": 0.20923465105227984, 
+            "linear_x": 0.3380164803958227, 
+            "linear_y": 0.029849437277878168
+        }, 
+        "stability": 316.2962951660156, 
+        "amcl": {
+            "orientation_w": 0.618957181147844, 
+            "pose_x": 1.8895718182175854, 
+            "pose_y": -12.250216979664295, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7854247308975666
+        }, 
+        "odom": {
+            "linear_x": 0.345726005170109, 
+            "linear_y": 0.033562307638928375, 
+            "angular": 0.2215722020693495
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.39", 
+        "cmd_vel": {
+            "angular_z": 0.1981043996977766, 
+            "linear_x": 0.33621577798314634, 
+            "linear_y": 0.03182653486105119
+        }, 
+        "stability": 316.2962951660156, 
+        "amcl": {
+            "orientation_w": 0.6291478496048821, 
+            "pose_x": 1.8837112561565823, 
+            "pose_y": -12.284029481949506, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7772856510560018
+        }, 
+        "odom": {
+            "linear_x": 0.3380164803958227, 
+            "linear_y": 0.029849437277878168, 
+            "angular": 0.20923465105227984
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.40", 
+        "cmd_vel": {
+            "angular_z": 0.17895175490967297, 
+            "linear_x": 0.29747228789951147, 
+            "linear_y": 0.04003119160670058
+        }, 
+        "stability": 209.6875, 
+        "amcl": {
+            "orientation_w": 0.6414582871151501, 
+            "pose_x": 1.87392629362877, 
+            "pose_y": -12.337024099900594, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7671579145725459
+        }, 
+        "odom": {
+            "linear_x": 0.29747228789951147, 
+            "linear_y": 0.04003119160670058, 
+            "angular": 0.17895175490967297
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.41", 
+        "cmd_vel": {
+            "angular_z": 0.16441683969464746, 
+            "linear_x": 0.28392443693225317, 
+            "linear_y": 0.030602724542300144
+        }, 
+        "stability": 209.6875, 
+        "amcl": {
+            "orientation_w": 0.6445442034191815, 
+            "pose_x": 1.8709754021730935, 
+            "pose_y": -12.35145794111925, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.764567047314186
+        }, 
+        "odom": {
+            "linear_x": 0.29747228789951147, 
+            "linear_y": 0.04003119160670058, 
+            "angular": 0.17895175490967297
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.42", 
+        "cmd_vel": {
+            "angular_z": 0.14085476600566915, 
+            "linear_x": 0.24937584781988276, 
+            "linear_y": 0.03769125226315186
+        }, 
+        "stability": 25.185184478759766, 
+        "amcl": {
+            "orientation_w": 0.6526572074268858, 
+            "pose_x": 1.867462078188865, 
+            "pose_y": -12.37901397266786, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7576533307481325
+        }, 
+        "odom": {
+            "linear_x": 0.24937584781988276, 
+            "linear_y": 0.03769125226315186, 
+            "angular": 0.14085476600566915
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.43", 
+        "cmd_vel": {
+            "angular_z": 0.12131060866098665, 
+            "linear_x": 0.22615746704409567, 
+            "linear_y": 0.03659560357418725
+        }, 
+        "stability": 25.185184478759766, 
+        "amcl": {
+            "orientation_w": 0.6590860682203975, 
+            "pose_x": 1.8644935829255476, 
+            "pose_y": -12.405263074046443, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7520675200258136
+        }, 
+        "odom": {
+            "linear_x": 0.24937584781988276, 
+            "linear_y": 0.03769125226315186, 
+            "angular": 0.14085476600566915
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.44", 
+        "cmd_vel": {
+            "angular_z": 0.11012984255973006, 
+            "linear_x": 0.1939501009166555, 
+            "linear_y": 0.028966608249225118
+        }, 
+        "stability": 300.7407531738281, 
+        "amcl": {
+            "orientation_w": 0.661366146538995, 
+            "pose_x": 1.865857542352601, 
+            "pose_y": -12.426142583808984, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.750063210811036
+        }, 
+        "odom": {
+            "linear_x": 0.22615746704409567, 
+            "linear_y": 0.03659560357418725, 
+            "angular": 0.12131060866098665
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.45", 
+        "cmd_vel": {
+            "angular_z": 0.0972141838509741, 
+            "linear_x": 0.17129986144215548, 
+            "linear_y": 0.03665224594731691
+        }, 
+        "stability": 300.7407531738281, 
+        "amcl": {
+            "orientation_w": 0.6700637600891259, 
+            "pose_x": 1.8644389542363426, 
+            "pose_y": -12.46409830581829, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7423035480281786
+        }, 
+        "odom": {
+            "linear_x": 0.17129986144215548, 
+            "linear_y": 0.03665224594731691, 
+            "angular": 0.0972141838509741
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.46", 
+        "cmd_vel": {
+            "angular_z": 0.07911649945135618, 
+            "linear_x": 0.14301096192170615, 
+            "linear_y": 0.025973752939919385
+        }, 
+        "stability": 201.71875, 
+        "amcl": {
+            "orientation_w": 0.6727169207855, 
+            "pose_x": 1.8663796757399747, 
+            "pose_y": -12.480477192246397, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7398999557297428
+        }, 
+        "odom": {
+            "linear_x": 0.17129986144215548, 
+            "linear_y": 0.03665224594731691, 
+            "angular": 0.0972141838509741
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.47", 
+        "cmd_vel": {
+            "angular_z": 0.05666104693508632, 
+            "linear_x": 0.12435453094510873, 
+            "linear_y": 0.017225529486685574
+        }, 
+        "stability": 201.71875, 
+        "amcl": {
+            "orientation_w": 0.679405259601982, 
+            "pose_x": 1.8701791346178063, 
+            "pose_y": -12.50347916435924, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7337632405791145
+        }, 
+        "odom": {
+            "linear_x": 0.14301096192170615, 
+            "linear_y": 0.025973752939919385, 
+            "angular": 0.07911649945135618
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.48", 
+        "cmd_vel": {
+            "angular_z": 0.04027234363038991, 
+            "linear_x": 0.1067888205801611, 
+            "linear_y": 0.016269655871589347
+        }, 
+        "stability": 237.0370330810547, 
+        "amcl": {
+            "orientation_w": 0.6818006668688349, 
+            "pose_x": 1.8704446476879433, 
+            "pose_y": -12.511564113130172, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.731538003563186
+        }, 
+        "odom": {
+            "linear_x": 0.1067888205801611, 
+            "linear_y": 0.016269655871589347, 
+            "angular": 0.04027234363038991
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.49", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 237.0370330810547, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.1067888205801611, 
+            "linear_y": 0.016269655871589347, 
+            "angular": 0.04027234363038991
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.50", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 85.9259262084961, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.51", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 85.9259262084961, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.52", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 73.59375, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.53", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 73.59375, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.54", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 72.59259033203125, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.55", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 72.59259033203125, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.56", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 80.0, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.57", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 80.0, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.58", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 256.2962951660156, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.59", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 256.2962951660156, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.60", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 422.5, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.61", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 422.5, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.62", 
+        "cmd_vel": {
+            "angular_z": 0.03949993228003952, 
+            "linear_x": 0.1545438759698986, 
+            "linear_y": 0.0025885020763878226
+        }, 
+        "stability": 5.0, 
+        "amcl": {
+            "orientation_w": 0.6835081878985163, 
+            "pose_x": 1.8718359892872383, 
+            "pose_y": -12.525126720212608, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7299428450746582
+        }, 
+        "odom": {
+            "linear_x": 0.1545438759698986, 
+            "linear_y": 0.0025885020763878226, 
+            "angular": 0.03949993228003953
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.63", 
+        "cmd_vel": {
+            "angular_z": 0.07253321415862014, 
+            "linear_x": 0.2576188151013128, 
+            "linear_y": 0.0037902725529222847
+        }, 
+        "stability": 5.0, 
+        "amcl": {
+            "orientation_w": 0.6851591171617326, 
+            "pose_x": 1.8732946193946693, 
+            "pose_y": -12.535269644192843, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7283934267757742
+        }, 
+        "odom": {
+            "linear_x": 0.2576188151013128, 
+            "linear_y": 0.0037902725529222847, 
+            "angular": 0.07253321415862014
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.64", 
+        "cmd_vel": {
+            "angular_z": 0.10580487176940073, 
+            "linear_x": 0.34555522499021774, 
+            "linear_y": 0.00661851128555848
+        }, 
+        "stability": 2.9629628658294678, 
+        "amcl": {
+            "orientation_w": 0.6889757132460483, 
+            "pose_x": 1.8675326076916086, 
+            "pose_y": -12.565804163726847, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7247844276452821
+        }, 
+        "odom": {
+            "linear_x": 0.34555522499021774, 
+            "linear_y": 0.00661851128555848, 
+            "angular": 0.10580487176940073
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.65", 
+        "cmd_vel": {
+            "angular_z": 0.13066539952808526, 
+            "linear_x": 0.39459052421069807, 
+            "linear_y": 0.007252551596291115
+        }, 
+        "stability": 2.9629628658294678, 
+        "amcl": {
+            "orientation_w": 0.6933596447258189, 
+            "pose_x": 1.8677801830503944, 
+            "pose_y": -12.611176662683416, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.720591703439393
+        }, 
+        "odom": {
+            "linear_x": 0.39459052421069807, 
+            "linear_y": 0.007252551596291115, 
+            "angular": 0.13066539952808526
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.66", 
+        "cmd_vel": {
+            "angular_z": 0.15291158819789993, 
+            "linear_x": 0.43160896849871333, 
+            "linear_y": 0.008157659038098824
+        }, 
+        "stability": 2.9629628658294678, 
+        "amcl": {
+            "orientation_w": 0.6966634129013989, 
+            "pose_x": 1.868637359534411, 
+            "pose_y": -12.63079849073685, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7173981385009129
+        }, 
+        "odom": {
+            "linear_x": 0.43160896849871333, 
+            "linear_y": 0.008157659038098824, 
+            "angular": 0.15291158819789993
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.67", 
+        "cmd_vel": {
+            "angular_z": 0.17422040745590192, 
+            "linear_x": 0.44946193602814566, 
+            "linear_y": 0.00923838834769938
+        }, 
+        "stability": 2.9629628658294678, 
+        "amcl": {
+            "orientation_w": 0.7026518389379929, 
+            "pose_x": 1.866385169924953, 
+            "pose_y": -12.676337012931798, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7115338314072331
+        }, 
+        "odom": {
+            "linear_x": 0.44946193602814566, 
+            "linear_y": 0.00923838834769938, 
+            "angular": 0.17422040745590192
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.68", 
+        "cmd_vel": {
+            "angular_z": 0.15750292747603029, 
+            "linear_x": 0.45407262518246183, 
+            "linear_y": 0.008451208250265083
+        }, 
+        "stability": 1.4814814329147339, 
+        "amcl": {
+            "orientation_w": 0.7073396055952909, 
+            "pose_x": 1.8670656728507178, 
+            "pose_y": -12.721194922957151, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.7068738800919854
+        }, 
+        "odom": {
+            "linear_x": 0.45407262518246183, 
+            "linear_y": 0.008451208250265083, 
+            "angular": 0.15750292747603029
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.69", 
+        "cmd_vel": {
+            "angular_z": 0.15341522929667226, 
+            "linear_x": 0.4722274904030113, 
+            "linear_y": 0.010176934036126245
+        }, 
+        "stability": 1.4814814329147339, 
+        "amcl": {
+            "orientation_w": 0.7162789016659019, 
+            "pose_x": 1.8674412257394248, 
+            "pose_y": -12.796105190511293, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6978141120873733
+        }, 
+        "odom": {
+            "linear_x": 0.4722274904030113, 
+            "linear_y": 0.010176934036126245, 
+            "angular": 0.15341522929667226
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.70", 
+        "cmd_vel": {
+            "angular_z": 0.13735670152891086, 
+            "linear_x": 0.4541111182137391, 
+            "linear_y": 0.007321669482158637
+        }, 
+        "stability": 1.4814814329147339, 
+        "amcl": {
+            "orientation_w": 0.7203771630975205, 
+            "pose_x": 1.8713695697958785, 
+            "pose_y": -12.834088752146695, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6935825422309649
+        }, 
+        "odom": {
+            "linear_x": 0.4541111182137391, 
+            "linear_y": 0.007321669482158637, 
+            "angular": 0.13735670152891086
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.71", 
+        "cmd_vel": {
+            "angular_z": 0.12569423617547643, 
+            "linear_x": 0.4604768270742225, 
+            "linear_y": 0.0071784198504249545
+        }, 
+        "stability": 1.4814814329147339, 
+        "amcl": {
+            "orientation_w": 0.7221465115625448, 
+            "pose_x": 1.877343268411794, 
+            "pose_y": -12.875764112875444, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6917401360612577
+        }, 
+        "odom": {
+            "linear_x": 0.4604768270742225, 
+            "linear_y": 0.0071784198504249545, 
+            "angular": 0.12569423617547643
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.72", 
+        "cmd_vel": {
+            "angular_z": 0.1339277721395162, 
+            "linear_x": 0.46194931035743036, 
+            "linear_y": 0.007927659947685172
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7299793964664749, 
+            "pose_x": 1.8737539434816113, 
+            "pose_y": -12.936729614197816, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6834691512675908
+        }, 
+        "odom": {
+            "linear_x": 0.46194931035743036, 
+            "linear_y": 0.007927659947685172, 
+            "angular": 0.1339277721395162
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.73", 
+        "cmd_vel": {
+            "angular_z": 0.12587543729540215, 
+            "linear_x": 0.4528668141193679, 
+            "linear_y": 0.006826837065055156
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7312313587455094, 
+            "pose_x": 1.875371813954685, 
+            "pose_y": -12.966841373457408, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6821295331439595
+        }, 
+        "odom": {
+            "linear_x": 0.4528668141193679, 
+            "linear_y": 0.006826837065055156, 
+            "angular": 0.12587543729540215
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.74", 
+        "cmd_vel": {
+            "angular_z": 0.11694507197111577, 
+            "linear_x": 0.45946251580082853, 
+            "linear_y": 0.006940051137534589
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7335211730013963, 
+            "pose_x": 1.8761992780563104, 
+            "pose_y": -13.005060247475413, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.679666601179325
+        }, 
+        "odom": {
+            "linear_x": 0.45946251580082853, 
+            "linear_y": 0.006940051137534589, 
+            "angular": 0.11694507197111577
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.75", 
+        "cmd_vel": {
+            "angular_z": 0.10693907163094517, 
+            "linear_x": 0.4542617806606878, 
+            "linear_y": 0.005702603895231732
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7394973714573816, 
+            "pose_x": 1.882912074931208, 
+            "pose_y": -13.082033568390308, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6731594444168658
+        }, 
+        "odom": {
+            "linear_x": 0.4542617806606878, 
+            "linear_y": 0.005702603895231732, 
+            "angular": 0.10693907163094517
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.76", 
+        "cmd_vel": {
+            "angular_z": 0.06953032729893821, 
+            "linear_x": 0.5, 
+            "linear_y": 0.006215587996959724
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7421953819147408, 
+            "pose_x": 1.8831012017086204, 
+            "pose_y": -13.118913812076274, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6701835681844431
+        }, 
+        "odom": {
+            "linear_x": 0.5, 
+            "linear_y": 0.006215587996959724, 
+            "angular": 0.06953032729893821
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.77", 
+        "cmd_vel": {
+            "angular_z": 0.046921482562750944, 
+            "linear_x": 0.46316895601844005, 
+            "linear_y": 0.0023521864572320795
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7423705239444324, 
+            "pose_x": 1.892425700371087, 
+            "pose_y": -13.163965210653462, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6699895560219346
+        }, 
+        "odom": {
+            "linear_x": 0.46316895601844005, 
+            "linear_y": 0.0023521864572320795, 
+            "angular": 0.046921482562750944
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.78", 
+        "cmd_vel": {
+            "angular_z": 0.023862977277808974, 
+            "linear_x": 0.46212267151299247, 
+            "linear_y": 0.001488343151221131
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7442900978324094, 
+            "pose_x": 1.8982790312578244, 
+            "pose_y": -13.204265766580264, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6678564593298641
+        }, 
+        "odom": {
+            "linear_x": 0.46212267151299247, 
+            "linear_y": 0.001488343151221131, 
+            "angular": 0.023862977277808974
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.79", 
+        "cmd_vel": {
+            "angular_z": 0.0024152108803563908, 
+            "linear_x": 0.45108222194298253, 
+            "linear_y": 0.00018511552400728287
+        }, 
+        "stability": 0.0, 
+        "amcl": {
+            "orientation_w": 0.7449939113602659, 
+            "pose_x": 1.9027416112571969, 
+            "pose_y": -13.227099244339534, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6670712645858253
+        }, 
+        "odom": {
+            "linear_x": 0.45108222194298253, 
+            "linear_y": 0.0001851155240072829, 
+            "angular": 0.0024152108803563895
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.80", 
+        "cmd_vel": {
+            "angular_z": 0.021098117341832968, 
+            "linear_x": 0.46116779225091914, 
+            "linear_y": 0.0011365225013898884
+        }, 
+        "stability": 342.5, 
+        "amcl": {
+            "orientation_w": 0.7452020215354292, 
+            "pose_x": 1.908113999654745, 
+            "pose_y": -13.297046826204555, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.666838771442925
+        }, 
+        "odom": {
+            "linear_x": 0.46116779225091914, 
+            "linear_y": 0.0011365225013898884, 
+            "angular": 0.021098117341832968
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.81", 
+        "cmd_vel": {
+            "angular_z": 0.020073121210557487, 
+            "linear_x": 0.45003494505351227, 
+            "linear_y": 0.0009987864608587704
+        }, 
+        "stability": 342.5, 
+        "amcl": {
+            "orientation_w": 0.74520942257739, 
+            "pose_x": 1.9131377707140524, 
+            "pose_y": -13.31731034935915, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6668305005785751
+        }, 
+        "odom": {
+            "linear_x": 0.45003494505351227, 
+            "linear_y": 0.0009987864608587704, 
+            "angular": 0.020073121210557487
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.82", 
+        "cmd_vel": {
+            "angular_z": 0.041166834566617794, 
+            "linear_x": 0.44911592223797614, 
+            "linear_y": 0.0023028443558765596
+        }, 
+        "stability": 342.5, 
+        "amcl": {
+            "orientation_w": 0.7464324247109094, 
+            "pose_x": 1.9202492620418656, 
+            "pose_y": -13.35408170166825, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6654612200122503
+        }, 
+        "odom": {
+            "linear_x": 0.44911592223797614, 
+            "linear_y": 0.0023028443558765596, 
+            "angular": 0.041166834566617794
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.83", 
+        "cmd_vel": {
+            "angular_z": 0.05553565357780031, 
+            "linear_x": 0.45646757616514755, 
+            "linear_y": 0.0030895601873167046
+        }, 
+        "stability": 342.5, 
+        "amcl": {
+            "orientation_w": 0.7484554455833342, 
+            "pose_x": 1.929071672987261, 
+            "pose_y": -13.419623771941929, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.663185076714376
+        }, 
+        "odom": {
+            "linear_x": 0.45646757616514755, 
+            "linear_y": 0.0030895601873167046, 
+            "angular": 0.05553565357780031
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.84", 
+        "cmd_vel": {
+            "angular_z": 0.06840355046429389, 
+            "linear_x": 0.46372958305139883, 
+            "linear_y": 0.004020957447243148
+        }, 
+        "stability": 202.9629669189453, 
+        "amcl": {
+            "orientation_w": 0.7499768051308588, 
+            "pose_x": 1.9371679816655623, 
+            "pose_y": -13.478528658213543, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.661464127346079
+        }, 
+        "odom": {
+            "linear_x": 0.46372958305139883, 
+            "linear_y": 0.004020957447243148, 
+            "angular": 0.06840355046429389
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.85", 
+        "cmd_vel": {
+            "angular_z": 0.04696607679114373, 
+            "linear_x": 0.4503317489088176, 
+            "linear_y": 0.0022141500504388196
+        }, 
+        "stability": 202.9629669189453, 
+        "amcl": {
+            "orientation_w": 0.7499030101398445, 
+            "pose_x": 1.9389574950387702, 
+            "pose_y": -13.506525412292342, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6615477876791671
+        }, 
+        "odom": {
+            "linear_x": 0.4503317489088176, 
+            "linear_y": 0.0022141500504388196, 
+            "angular": 0.04696607679114373
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.86", 
+        "cmd_vel": {
+            "angular_z": 0.07057782183662205, 
+            "linear_x": 0.4597690179747619, 
+            "linear_y": 0.004035060643474168
+        }, 
+        "stability": 202.9629669189453, 
+        "amcl": {
+            "orientation_w": 0.7542523049544175, 
+            "pose_x": 1.9477629894777084, 
+            "pose_y": -13.552616037075918, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6565846940577797
+        }, 
+        "odom": {
+            "linear_x": 0.4597690179747619, 
+            "linear_y": 0.004035060643474168, 
+            "angular": 0.07057782183662205
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.87", 
+        "cmd_vel": {
+            "angular_z": 0.052439535168305365, 
+            "linear_x": 0.4503183480454491, 
+            "linear_y": 0.002560904201127362
+        }, 
+        "stability": 202.9629669189453, 
+        "amcl": {
+            "orientation_w": 0.7586650549216636, 
+            "pose_x": 1.9541376198225238, 
+            "pose_y": -13.599709916794438, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6514808780315116
+        }, 
+        "odom": {
+            "linear_x": 0.4503183480454491, 
+            "linear_y": 0.0025609042011273614, 
+            "angular": 0.052439535168305365
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.88", 
+        "cmd_vel": {
+            "angular_z": 0.026214444533838546, 
+            "linear_x": 0.4749016056762716, 
+            "linear_y": 0.001508710134253641
+        }, 
+        "stability": 87.40740966796875, 
+        "amcl": {
+            "orientation_w": 0.7612878084635727, 
+            "pose_x": 1.959710447963208, 
+            "pose_y": -13.647534616346732, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.648414121287261
+        }, 
+        "odom": {
+            "linear_x": 0.4749016056762716, 
+            "linear_y": 0.001508710134253641, 
+            "angular": 0.02621444453383855
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.89", 
+        "cmd_vel": {
+            "angular_z": 0.0035401842731184476, 
+            "linear_x": 0.45599077835008806, 
+            "linear_y": -1.0952046034206459e-05
+        }, 
+        "stability": 87.40740966796875, 
+        "amcl": {
+            "orientation_w": 0.7623872303063652, 
+            "pose_x": 1.972233695428714, 
+            "pose_y": -13.734275396977438, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6471210945918772
+        }, 
+        "odom": {
+            "linear_x": 0.45599077835008806, 
+            "linear_y": -1.0952046034206448e-05, 
+            "angular": 0.0035401842731184463
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.90", 
+        "cmd_vel": {
+            "angular_z": 0.027738754985688483, 
+            "linear_x": 0.462655726960567, 
+            "linear_y": 0.00143871239080777
+        }, 
+        "stability": 121.25, 
+        "amcl": {
+            "orientation_w": 0.7628829826410606, 
+            "pose_x": 1.978162573807375, 
+            "pose_y": -13.758434256971285, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.646536584267804
+        }, 
+        "odom": {
+            "linear_x": 0.462655726960567, 
+            "linear_y": 0.00143871239080777, 
+            "angular": 0.027738754985688483
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.91", 
+        "cmd_vel": {
+            "angular_z": 0.016037599569027037, 
+            "linear_x": 0.4530160175498199, 
+            "linear_y": 0.0005747559151160795
+        }, 
+        "stability": 121.25, 
+        "amcl": {
+            "orientation_w": 0.7623683345190203, 
+            "pose_x": 1.986617652267195, 
+            "pose_y": -13.813488413603459, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6471433554651512
+        }, 
+        "odom": {
+            "linear_x": 0.4530160175498199, 
+            "linear_y": 0.0005747559151160796, 
+            "angular": 0.016037599569027037
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.92", 
+        "cmd_vel": {
+            "angular_z": 0.037405167166955376, 
+            "linear_x": 0.4505576501857016, 
+            "linear_y": 0.001830803663075848
+        }, 
+        "stability": 58.51852035522461, 
+        "amcl": {
+            "orientation_w": 0.7625954206647476, 
+            "pose_x": 1.9934127216449464, 
+            "pose_y": -13.847053677983192, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6468757410671362
+        }, 
+        "odom": {
+            "linear_x": 0.4505576501857016, 
+            "linear_y": 0.001830803663075848, 
+            "angular": 0.037405167166955376
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.93", 
+        "cmd_vel": {
+            "angular_z": 0.04223168002252166, 
+            "linear_x": 0.45522448279347166, 
+            "linear_y": 0.002146171869756433
+        }, 
+        "stability": 58.51852035522461, 
+        "amcl": {
+            "orientation_w": 0.7655767612402847, 
+            "pose_x": 2.0013055956927888, 
+            "pose_y": -13.898815207488127, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6433445598191034
+        }, 
+        "odom": {
+            "linear_x": 0.45522448279347166, 
+            "linear_y": 0.002146171869756433, 
+            "angular": 0.04223168002252166
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.94", 
+        "cmd_vel": {
+            "angular_z": 0.025639039114813435, 
+            "linear_x": 0.49525023908593546, 
+            "linear_y": 0.002226831513342974
+        }, 
+        "stability": 130.37037658691406, 
+        "amcl": {
+            "orientation_w": 0.765436322876243, 
+            "pose_x": 2.0055717345730986, 
+            "pose_y": -13.917875617780323, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6435116437343585
+        }, 
+        "odom": {
+            "linear_x": 0.49525023908593546, 
+            "linear_y": 0.002226831513342974, 
+            "angular": 0.025639039114813435
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.95", 
+        "cmd_vel": {
+            "angular_z": 0.0032706423721307705, 
+            "linear_x": 0.46293032305035237, 
+            "linear_y": 0.00020059441663293246
+        }, 
+        "stability": 130.37037658691406, 
+        "amcl": {
+            "orientation_w": 0.7676019760414889, 
+            "pose_x": 2.0138911823925394, 
+            "pose_y": -13.964893682115907, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6409268338720118
+        }, 
+        "odom": {
+            "linear_x": 0.46293032305035237, 
+            "linear_y": 0.00020059441663293227, 
+            "angular": 0.0032706423721307713
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.96", 
+        "cmd_vel": {
+            "angular_z": -0.010293161544399262, 
+            "linear_x": 0.4517835317297996, 
+            "linear_y": -0.00047348462121838195
+        }, 
+        "stability": 130.37037658691406, 
+        "amcl": {
+            "orientation_w": 0.7655192603907858, 
+            "pose_x": 2.0231447463474668, 
+            "pose_y": -14.011493548712577, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6434129793303398
+        }, 
+        "odom": {
+            "linear_x": 0.4517835317297996, 
+            "linear_y": -0.000473484621218382, 
+            "angular": -0.010293161544399262
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.97", 
+        "cmd_vel": {
+            "angular_z": 0.00854894314126339, 
+            "linear_x": 0.45170806490215454, 
+            "linear_y": 0.0003129050009523452
+        }, 
+        "stability": 130.37037658691406, 
+        "amcl": {
+            "orientation_w": 0.7671826779886023, 
+            "pose_x": 2.0350776116682665, 
+            "pose_y": -14.055516180597518, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6414286699191396
+        }, 
+        "odom": {
+            "linear_x": 0.45170806490215454, 
+            "linear_y": 0.00031290500095234523, 
+            "angular": 0.008548943141263388
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.98", 
+        "cmd_vel": {
+            "angular_z": -0.017989358897561036, 
+            "linear_x": 0.47586778113851713, 
+            "linear_y": -0.002044570352746156
+        }, 
+        "stability": 202.9629669189453, 
+        "amcl": {
+            "orientation_w": 0.7646464818530033, 
+            "pose_x": 2.0367912304628093, 
+            "pose_y": -14.096737081436972, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.644449965311369
+        }, 
+        "odom": {
+            "linear_x": 0.47586778113851713, 
+            "linear_y": -0.002044570352746156, 
+            "angular": -0.017989358897561036
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.99", 
+        "cmd_vel": {
+            "angular_z": 0.0044848252397578225, 
+            "linear_x": 0.4516480171673551, 
+            "linear_y": 0.003011175515302513
+        }, 
+        "stability": 202.9629669189453, 
+        "amcl": {
+            "orientation_w": 0.7640888733657303, 
+            "pose_x": 2.043323248947126, 
+            "pose_y": -14.147857290785346, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.645110993239682
+        }, 
+        "odom": {
+            "linear_x": 0.4516480171673551, 
+            "linear_y": 0.003011175515302513, 
+            "angular": 0.0044848252397578225
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.100", 
+        "cmd_vel": {
+            "angular_z": 0.005338549568708391, 
+            "linear_x": 0.456606610838025, 
+            "linear_y": 0.0007329206295501753
+        }, 
+        "stability": 115.9375, 
+        "amcl": {
+            "orientation_w": 0.7646500912875377, 
+            "pose_x": 2.052579009345709, 
+            "pose_y": -14.204062775005744, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6444456826560019
+        }, 
+        "odom": {
+            "linear_x": 0.456606610838025, 
+            "linear_y": 0.0007329206295501752, 
+            "angular": 0.005338549568708391
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.101", 
+        "cmd_vel": {
+            "angular_z": -0.018613559250739427, 
+            "linear_x": 0.45970923668342784, 
+            "linear_y": 0.0007230447954129643
+        }, 
+        "stability": 115.9375, 
+        "amcl": {
+            "orientation_w": 0.7654615115547824, 
+            "pose_x": 2.059896640301989, 
+            "pose_y": -14.238485642948486, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6434816814240074
+        }, 
+        "odom": {
+            "linear_x": 0.45970923668342784, 
+            "linear_y": 0.0007230447954129643, 
+            "angular": -0.018613559250739427
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.102", 
+        "cmd_vel": {
+            "angular_z": -0.03542030939896382, 
+            "linear_x": 0.45867570691559056, 
+            "linear_y": -0.00045968283798324713
+        }, 
+        "stability": 92.59259033203125, 
+        "amcl": {
+            "orientation_w": 0.7648082512798762, 
+            "pose_x": 2.0728787519468708, 
+            "pose_y": -14.292072968834688, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6442579753283755
+        }, 
+        "odom": {
+            "linear_x": 0.45867570691559056, 
+            "linear_y": -0.00045968283798324724, 
+            "angular": -0.03542030939896382
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.103", 
+        "cmd_vel": {
+            "angular_z": -0.047391628475651405, 
+            "linear_x": 0.4742229551963022, 
+            "linear_y": -0.0021567617515666697
+        }, 
+        "stability": 92.59259033203125, 
+        "amcl": {
+            "orientation_w": 0.7639428209933019, 
+            "pose_x": 2.080496440601142, 
+            "pose_y": -14.338920750612711, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6452839423484796
+        }, 
+        "odom": {
+            "linear_x": 0.4742229551963022, 
+            "linear_y": -0.0021567617515666697, 
+            "angular": -0.047391628475651405
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.104", 
+        "cmd_vel": {
+            "angular_z": -0.06013375498431001, 
+            "linear_x": 0.46336698837545987, 
+            "linear_y": -0.002932231758089234
+        }, 
+        "stability": 172.59259033203125, 
+        "amcl": {
+            "orientation_w": 0.761673861630017, 
+            "pose_x": 2.0915635893316624, 
+            "pose_y": -14.40735719997275, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6479605917875081
+        }, 
+        "odom": {
+            "linear_x": 0.46336698837545987, 
+            "linear_y": -0.002932231758089234, 
+            "angular": -0.06013375498431001
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.105", 
+        "cmd_vel": {
+            "angular_z": -0.06636303619007441, 
+            "linear_x": 0.4479156910729517, 
+            "linear_y": -0.002737505355591226
+        }, 
+        "stability": 172.59259033203125, 
+        "amcl": {
+            "orientation_w": 0.759858466395059, 
+            "pose_x": 2.0976231872597406, 
+            "pose_y": -14.440796149367605, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6500885409294251
+        }, 
+        "odom": {
+            "linear_x": 0.4479156910729517, 
+            "linear_y": -0.002737505355591226, 
+            "angular": -0.06636303619007441
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.106", 
+        "cmd_vel": {
+            "angular_z": -0.08779685677841231, 
+            "linear_x": 0.43939093158893217, 
+            "linear_y": -0.004600879081870018
+        }, 
+        "stability": 193.4375, 
+        "amcl": {
+            "orientation_w": 0.7589110309437617, 
+            "pose_x": 2.1103214944383533, 
+            "pose_y": -14.486720117872201, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6511943236176716
+        }, 
+        "odom": {
+            "linear_x": 0.43939093158893217, 
+            "linear_y": -0.004600879081870018, 
+            "angular": -0.08779685677841231
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.107", 
+        "cmd_vel": {
+            "angular_z": -0.11015279548087778, 
+            "linear_x": 0.4231733302260791, 
+            "linear_y": -0.0054380666148699805
+        }, 
+        "stability": 193.4375, 
+        "amcl": {
+            "orientation_w": 0.7543309796693923, 
+            "pose_x": 2.115891218833001, 
+            "pose_y": -14.526950346533495, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6564943054673169
+        }, 
+        "odom": {
+            "linear_x": 0.4231733302260791, 
+            "linear_y": -0.0054380666148699805, 
+            "angular": -0.11015279548087778
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.108", 
+        "cmd_vel": {
+            "angular_z": -0.13301328758281553, 
+            "linear_x": 0.39246810754595973, 
+            "linear_y": -0.005258971318278117
+        }, 
+        "stability": 105.9259262084961, 
+        "amcl": {
+            "orientation_w": 0.7499285533036287, 
+            "pose_x": 2.1229967917110764, 
+            "pose_y": -14.565427041387885, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6615188318860821
+        }, 
+        "odom": {
+            "linear_x": 0.39246810754595973, 
+            "linear_y": -0.005258971318278117, 
+            "angular": -0.13301328758281553
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.109", 
+        "cmd_vel": {
+            "angular_z": -0.14001783320862654, 
+            "linear_x": 0.3869404283052832, 
+            "linear_y": -0.006185889401792528
+        }, 
+        "stability": 105.9259262084961, 
+        "amcl": {
+            "orientation_w": 0.7455141511770367, 
+            "pose_x": 2.1288726048124045, 
+            "pose_y": -14.612298307960454, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6664897976674381
+        }, 
+        "odom": {
+            "linear_x": 0.3869404283052832, 
+            "linear_y": -0.006185889401792528, 
+            "angular": -0.14001783320862654
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.110", 
+        "cmd_vel": {
+            "angular_z": -0.1178497063958042, 
+            "linear_x": 0.35816114473392446, 
+            "linear_y": -0.005196479150544862
+        }, 
+        "stability": 85.9259262084961, 
+        "amcl": {
+            "orientation_w": 0.7409199894727682, 
+            "pose_x": 2.136202279504743, 
+            "pose_y": -14.651522138257546, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6715933063988005
+        }, 
+        "odom": {
+            "linear_x": 0.35816114473392446, 
+            "linear_y": -0.005196479150544862, 
+            "angular": -0.1178497063958042
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.111", 
+        "cmd_vel": {
+            "angular_z": -0.10439963691385147, 
+            "linear_x": 0.3428907260327155, 
+            "linear_y": -0.009076467692039491
+        }, 
+        "stability": 85.9259262084961, 
+        "amcl": {
+            "orientation_w": 0.7385210223525184, 
+            "pose_x": 2.136257555585142, 
+            "pose_y": -14.666210135407447, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6742304498785197
+        }, 
+        "odom": {
+            "linear_x": 0.3428907260327155, 
+            "linear_y": -0.009076467692039491, 
+            "angular": -0.10439963691385147
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.112", 
+        "cmd_vel": {
+            "angular_z": -0.08907895193382931, 
+            "linear_x": 0.3169386173058732, 
+            "linear_y": -0.004259201585154473
+        }, 
+        "stability": 57.96875, 
+        "amcl": {
+            "orientation_w": 0.7314451155641934, 
+            "pose_x": 2.1395366528948143, 
+            "pose_y": -14.718269189425033, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6819003174345086
+        }, 
+        "odom": {
+            "linear_x": 0.3169386173058732, 
+            "linear_y": -0.004259201585154473, 
+            "angular": -0.08907895193382931
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.113", 
+        "cmd_vel": {
+            "angular_z": -0.09271498695228164, 
+            "linear_x": 0.28494344201907823, 
+            "linear_y": -0.0030388590906761273
+        }, 
+        "stability": 57.96875, 
+        "amcl": {
+            "orientation_w": 0.7288434805262499, 
+            "pose_x": 2.1460920823073915, 
+            "pose_y": -14.749272644628622, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.68468034942912
+        }, 
+        "odom": {
+            "linear_x": 0.28494344201907823, 
+            "linear_y": -0.0030388590906761273, 
+            "angular": -0.09271498695228164
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.114", 
+        "cmd_vel": {
+            "angular_z": -0.06886961585455147, 
+            "linear_x": 0.26967025175043513, 
+            "linear_y": -0.010331116921566292
+        }, 
+        "stability": 14.814814567565918, 
+        "amcl": {
+            "orientation_w": 0.7265380254510077, 
+            "pose_x": 2.1450795309796598, 
+            "pose_y": -14.765762176560742, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6871262602853648
+        }, 
+        "odom": {
+            "linear_x": 0.26967025175043513, 
+            "linear_y": -0.01033111692156629, 
+            "angular": -0.06886961585455147
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.115", 
+        "cmd_vel": {
+            "angular_z": -0.056705698712654594, 
+            "linear_x": 0.2463413741178034, 
+            "linear_y": -0.0055888198303373
+        }, 
+        "stability": 14.814814567565918, 
+        "amcl": {
+            "orientation_w": 0.7235568950990761, 
+            "pose_x": 2.1467767717083146, 
+            "pose_y": -14.792297943987554, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6902647459885117
+        }, 
+        "odom": {
+            "linear_x": 0.2463413741178034, 
+            "linear_y": -0.0055888198303373, 
+            "angular": -0.056705698712654594
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.116", 
+        "cmd_vel": {
+            "angular_z": -0.04343687674660284, 
+            "linear_x": 0.22499360901574464, 
+            "linear_y": -0.011305718435584852
+        }, 
+        "stability": 17.037036895751953, 
+        "amcl": {
+            "orientation_w": 0.7227715878355566, 
+            "pose_x": 2.1495015078721473, 
+            "pose_y": -14.815017406056118, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6910869929449319
+        }, 
+        "odom": {
+            "linear_x": 0.22499360901574464, 
+            "linear_y": -0.011305718435584852, 
+            "angular": -0.04343687674660284
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.117", 
+        "cmd_vel": {
+            "angular_z": -0.042004993497477466, 
+            "linear_x": 0.2015712515328632, 
+            "linear_y": -0.010784028957917198
+        }, 
+        "stability": 17.037036895751953, 
+        "amcl": {
+            "orientation_w": 0.7206148986261437, 
+            "pose_x": 2.153122109823978, 
+            "pose_y": -14.854640173207677, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6933355377290512
+        }, 
+        "odom": {
+            "linear_x": 0.2015712515328632, 
+            "linear_y": -0.010784028957917198, 
+            "angular": -0.042004993497477466
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.118", 
+        "cmd_vel": {
+            "angular_z": -0.03810779835802722, 
+            "linear_x": 0.17314805918052703, 
+            "linear_y": -0.0178680267482955
+        }, 
+        "stability": 53.59375, 
+        "amcl": {
+            "orientation_w": 0.7193637725761717, 
+            "pose_x": 2.153325666418771, 
+            "pose_y": -14.872235025755625, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6946335456231422
+        }, 
+        "odom": {
+            "linear_x": 0.17314805918052703, 
+            "linear_y": -0.0178680267482955, 
+            "angular": -0.03810779835802722
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.119", 
+        "cmd_vel": {
+            "angular_z": -0.02948780248748856, 
+            "linear_x": 0.1432398788832797, 
+            "linear_y": -0.015988730306943307
+        }, 
+        "stability": 53.59375, 
+        "amcl": {
+            "orientation_w": 0.7177146012220963, 
+            "pose_x": 2.1510500834002992, 
+            "pose_y": -14.89971963819877, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6963373831646605
+        }, 
+        "odom": {
+            "linear_x": 0.1432398788832797, 
+            "linear_y": -0.015988730306943307, 
+            "angular": -0.02948780248748856
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.120", 
+        "cmd_vel": {
+            "angular_z": -0.02412509522917797, 
+            "linear_x": 0.1158305003198291, 
+            "linear_y": -0.010545566378723325
+        }, 
+        "stability": 65.18518829345703, 
+        "amcl": {
+            "orientation_w": 0.7186059601984431, 
+            "pose_x": 2.152785006427237, 
+            "pose_y": -14.913909696939037, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6954174817814646
+        }, 
+        "odom": {
+            "linear_x": 0.1158305003198291, 
+            "linear_y": -0.010545566378723325, 
+            "angular": -0.02412509522917797
+        }
+    }, 
+    {
+        "jobstate": "move trolley", 
+        "section": "13.121", 
+        "cmd_vel": {
+            "angular_z": 0.0, 
+            "linear_x": 0.0, 
+            "linear_y": 0.0
+        }, 
+        "stability": 65.18518829345703, 
+        "amcl": {
+            "orientation_w": 0.7175479806935436, 
+            "pose_x": 2.149455322696483, 
+            "pose_y": -14.921436064840758, 
+            "orientation_x": 0.0, 
+            "orientation_y": 0.0, 
+            "orientation_z": -0.6965090777603821
+        }, 
+        "odom": {
+            "linear_x": 0.0, 
+            "linear_y": 0.0, 
+            "angular": 0.0
+        }
+    }, 
+    {
+        "acc_lim_theta": 0.2, 
+        "max_vel_theta": 0.5, 
+        "success": "success", 
+        "acc_lim_x": 0.25953125, 
+        "acc_lim_y": 0.2, 
+        "max_vel_x": 0.5, 
+        "max_vel_y": 0.2, 
+        "max_vel_x_backwards": 0.4
+    }
+]

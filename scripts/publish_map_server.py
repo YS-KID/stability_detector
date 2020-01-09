@@ -37,8 +37,10 @@ def get_convex_index(array):
     return index
 
 if __name__ == "__main__":
+    #load log
+    num = raw_input()
     pkg_pass = rp.get_pkg_dir("stability_detector")
-    log_pass = pkg_pass + "/log/log7"
+    log_pass = pkg_pass + "/log/log" + num
 
     a = open(log_pass)
     b = json.load(a)
@@ -46,7 +48,7 @@ if __name__ == "__main__":
     stability = []
     amcl = []
 
-    for i in range(len(b)):
+    for i in range(len(b)-1):
         sta = b[i]["stability"]
         if(sta > 1000):
             stability.append(1000)
@@ -57,26 +59,33 @@ if __name__ == "__main__":
     stability = np.array(stability)
     amcl = np.array(amcl)
 
-    x_min = np.min(amcl[:,0])
-    y_min = np.min(amcl[:,1])
-    coo_amcl_x = (amcl[:,0] - x_min)*10
-    coo_amcl_y = (amcl[:,1] - y_min)*10
-    coo_amcl = np.array([coo_amcl_x, coo_amcl_y]).T.astype(int)
-
-    x_max = np.max(coo_amcl[:,0])
-    x_range = x_max + 1
-    y_max = np.max(coo_amcl[:,1])
-    y_range = y_max + 1
-
-    #Map = np.zeros(x_range*y_range).reshape([y_range, x_range])
+    #create map
     Map = np.zeros(1000*1000).reshape([1000,1000])
-    for i in coo_amcl:
-        Map[i[0]][i[1]] = 1
 
-    n_index = get_max_index_in_convex(stability, 1)
+    coo_amcl_x = (amcl[:,0]+50) * 10
+    coo_amcl_y = (amcl[:,1]+50) * 10
+    coo_amcl = np.array([coo_amcl_x, coo_amcl_y]).T.astype(int)
+    for k in range(50):
+        index = get_max_index_in_convex(stability, k+1)
+        x = coo_amcl[index][0]
+        y = coo_amcl[index][1]
+        for i in range(-4,5):
+            for j in range(-4,5):
+                Map[x+i,y+j] += (5-max(abs(i),abs(j)))
 
+    #plot Map
+    x_max = np.max(coo_amcl[:,0])
+    x_min = np.min(coo_amcl[:,0])
+    x_range = x_max - x_min
+    y_max = np.max(coo_amcl[:,1])
+    y_min = np.min(coo_amcl[:,1])
+    y_range = y_max - y_min
+
+    view_Map = Map[x_min-10:x_max+10,y_min-10:y_max+10]
     plt.figure()
-    sns.heatmap(Map, square=True)
+    sns.heatmap(view_Map, square=True)
     plt.show("Map")
 
+    from mpl_toolkits.mplot3d import Axes3D
 
+    fig = plt
